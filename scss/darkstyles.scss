@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// Brand colors setup
+$dark-primary: #263B4D;
+$bg-color: #465F75;
+$dark-info: #2E3F4D;
+$dark-link: #243747;
+$beige-light: #8A9299;
+$beige-lighter: #CFDBE5;
+
+// // Update Bulma's global variables
+$grey-light: $beige-light;
+$primary: $dark-primary; 
+$info: $dark-info; 
+$link: $dark-link;
+
+$body-background-color: $bg-color;
+
+$text: $beige-lighter;
+$title-color: white;
+$strong-color: white;
+
+// Import Bulma
+@import "../node_modules/bulma/bulma.sass";

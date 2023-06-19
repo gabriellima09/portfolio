@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss-watch": "node-sass --watch scss -o css",
+    "scss-build": "node-sass scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellima09/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellima09/portfolio/issues"
+  },
+  "homepage": "https://github.com/gabriellima09/portfolio#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bulma-switch": "^2.0.4"
+  }
+}

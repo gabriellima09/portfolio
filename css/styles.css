@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma-switch/dist/css/bulma-switch.min.css";
+@import "./darkstyles.css" (prefers-color-scheme: dark);
+@import "./lightstyles.css" (prefers-color-scheme: light);
+
+html {
+  scroll-behavior: smooth;
+}
+
+#name{
+  display: flex;
+}
+
+#gabriel-img {
+  margin-left: 10px;
+}
+
+#top{
+  z-index: 99;
+  display: none;
+  position: fixed;
+
+  bottom: 20px;
+  right: 30px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+#switch-theme{
+  margin: 0;
+}
+
+.buttons-social-media{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fa-sun{
+  margin-right: 5px;
+}
+
+.field{
+  display: flex;
+  align-items: center;
+}
+
+.font-36{
+  font-size: 36px;
+}

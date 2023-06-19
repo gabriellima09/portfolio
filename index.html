@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio - Gabriel Lima Gomes</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+
+    <link type="text/css" rel="stylesheet" media="all" href="./css/styles.css"/>
+    <link type="text/css" rel="stylesheet" media="all" href="./css/darkstyles.css" id="theme_css" />
+
+    <script src="js/scripts.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar is-info is-fixed-top">
+      <div class="navbar-brand">
+        <div
+          class="navbar-burger burger"
+          data-target="main-navbar"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="main-navbar" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#" id="name">
+            <span>Gabriel Lima Gomes</span>
+            <figure class="image is-24x24" id="gabriel-img">
+              <img class="is-rounded" src="./img/gabriel.jpg">
+            </figure>
+          </a>
+        </div>
+        <div class="navbar-end">
+          <a class="navbar-item" href="#about">
+            <span class="icon">
+              <i class="fas fa-info"></i>
+            </span>
+            <span>About</span>
+          </a>
+          <a class="navbar-item" href="#skills">
+            <span class="icon">
+              <i class="fas fa-cogs"></i>
+            </span>
+            <span>Skills</span>
+          </a>
+          <a class="navbar-item" href="#projects">
+            <span class="icon">
+              <i class="fas fa-th-list"></i>
+            </span>
+            <span>Projects</span>
+          </a>
+          <a class="navbar-item" href="#social-media">
+            <span class="icon">
+              <i class="fas fa-user"></i>
+            </span>
+            <span>Social Media</span>
+          </a>
+
+          <div class="navbar-item">
+            <div class="field">
+              <span class="icon">
+                <i class="fas fa-sun"></i>
+              </span>
+              <input id="switch-theme" 
+              type="checkbox" 
+              name="switch-theme" 
+              class="switch is-rounded is-info" 
+              onclick="toogleTheme()">
+              <label for="switch-theme"></label>
+              <span class="icon">
+                <i class="fas fa-moon"></i>
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero is-info is-fullheight is-fullheight-with-navbar">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-1">Gabriel Lima Gomes</h1>
+          <h2 class="subtitle is-3">Fullstack Software Engineer</h2>
+        </div>
+        <figure class="image is-128x128">
+          <img class="is-rounded" src="./img/gabriel.jpg">
+        </figure>
+      </div>
+    </section>
+    
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">About Me</h3>
+          <h4 class="subtitle is-5">A bit more of who I am</h4>
+          <p class="has-text-justified">
+            I'm a <strong>software developer since 2017</strong> and I hold a
+            degree in <strong>Systems Analysis and Development</strong>. With
+            expertise in various programming languages and tools, I excel in the
+            entire software development lifecycle. I'm a proactive problem
+            solver with a keen eye for detail. Constantly learning and staying
+            updated with industry trends, I thrive in collaborative
+            environments. Outside of work, I enjoy exploring new technologies
+            and maintaining a healthy work-life balance. I'm passionate about
+            creating innovative solutions and making a positive impact in the
+            world of technology.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Skills</h3>
+          <h4 class="subtitle is-5">My tech stack</h4>
+        </div>
+        <br />
+        <div class="tags custom-tags">
+          <span class="tag is-rounded is-light">C#</span>
+          <span class="tag is-rounded is-light">.NET</span>
+          <span class="tag is-rounded is-light">Angular</span>
+          <span class="tag is-rounded is-light">MS SQL Server</span>
+          <span class="tag is-rounded is-light">CosmosDB</span>
+          <span class="tag is-rounded is-light">Redis</span>
+          <span class="tag is-rounded is-light">RabbitMQ</span>
+          <span class="tag is-rounded is-light">HTML</span>
+          <span class="tag is-rounded is-light">CSS</span>
+          <span class="tag is-rounded is-light">JS</span>
+          <span class="tag is-rounded is-light">JQuery</span>
+          <span class="tag is-rounded is-light">Bootstrap</span>
+          <span class="tag is-rounded is-light">Material UI</span>
+          <span class="tag is-rounded is-light">Bulma.io</span>
+          <span class="tag is-rounded is-light">REST</span>
+          <span class="tag is-rounded is-light">SOAP</span>
+          <span class="tag is-rounded is-light">DDD</span>
+          <span class="tag is-rounded is-light">CQRS</span>
+          <span class="tag is-rounded is-light">Design Patterns</span>
+          <span class="tag is-rounded is-light">Microservices</span>
+          <span class="tag is-rounded is-light">Agile</span>
+          <span class="tag is-rounded is-light">Kanban</span>
+          <span class="tag is-rounded is-light">Azure DevOps</span>
+          <span class="tag is-rounded is-light">Trello</span>
+          <span class="tag is-rounded is-light">Jira</span>
+          <span class="tag is-rounded is-light">MS Office</span>
+          <span class="tag is-rounded is-light">Azure</span>
+          <span class="tag is-rounded is-light">Git</span>
+          <span class="tag is-rounded is-light">Docker</span>
+          <span class="tag is-rounded is-light">Grafana</span>
+          <span class="tag is-rounded is-light">Visual Studio</span>
+          <span class="tag is-rounded is-light">VS Code</span>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Projects</h3>
+          <h4 class="subtitle is-5">My latest works</h4>
+        </div>
+        <br />
+        <div class="container">
+          <div class="columns">
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Portfolio</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                    src="https://bulmatemplates.github.io/bulma-templates/images/first-post.png"
+                      alt="Admin template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://github.com/gabriellima09/portfolio/"
+                    class="card-footer-item"
+                    >
+                    <i class="fab fa-brands fa-github"></i>
+                    &nbsp;
+                    Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span class="tag is-danger">WIP</span>
+                    &nbsp;
+                    <span>TechSnacks</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                    src="https://bulmatemplates.github.io/bulma-templates/images/first-post.png"
+                      alt="Band template screenshot"
+                    />
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a
+                    href="https://github.com/gabriellima09/techsnacks/"
+                    class="card-footer-item"
+                    >
+                    <i class="fab fa-brands fa-github"></i>
+                    &nbsp;
+                    Source Code</a
+                  >
+                </footer>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Coming soon ...</span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <img
+                      src="https://bulmatemplates.github.io/bulma-templates/images/first-post.png"
+                      alt="Blog template screenshot"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- Social Media -->
+    <section class="section" id="social-media">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="title is-2">Social Media</h3>
+          <h4 class="subtitle is-5">Get in touch</h4>
+        </div>
+        <br />
+        <div
+          class="buttons-social-media"
+        >
+          <a
+            class="font-36"
+            target="_blank"
+            href="https://www.linkedin.com/in/gabriel-lima-gomes/"
+          >
+            <i class="fab fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            class="font-36"
+            target="_blank"
+            href="https://github.com/gabriellima09/"
+          >
+            <i class="fab fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <span id="top" class="icon button is-info" onclick="topFunction()">
+      <i class="fas fa-arrow-up"></i>
+    </span>
+  </body>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="content has-text-centered has-text-black">
+      <p>
+        &COPY;
+        <span>
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </span>
+        -
+        <strong class="has-text-black">Portfolio</strong> by
+        <a class="has-text-link-dark" href="https://gabriellimagomes.com">Gabriel Lima Gomes</a>. The
+        <a class="has-text-link-dark" href="https://github.com/gabriellima09/portfolio">source code</a>
+        is licensed
+        <a class="has-text-link-dark" href="https://github.com/gabriellima09/portfolio/blob/main/LICENSE"
+          >MIT</a
+        >.
+      </p>
+    </div>
+  </footer>
+</html>
